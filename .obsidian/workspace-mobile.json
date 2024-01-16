@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "2bc0c2a886f5e8cb",
+    "id": "216da01fee36b090",
     "type": "split",
     "children": [
       {
-        "id": "572f45bf82cc60e5",
+        "id": "613c3bbd456d043e",
         "type": "tabs",
         "children": [
           {
-            "id": "72039a414f01c55e",
+            "id": "bd93baf517d02119",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "54b0992577aaa6f6",
+    "id": "ee94ea9863c53fd7",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "0f0b666798241f8c",
+        "id": "53bbf4fee2d29a50",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "id": "16894a5facaafa25",
+        "id": "202f86ef0f4047e1",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "8d4765625f15495c",
+        "id": "9ceef47ad039240e",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "e77c4cee60f257af",
+        "id": "c2b8e313d1452147",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,16 +76,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "43a8e0ddcc71e32b",
+    "id": "d3518a582f4db84f",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "31deb3a595b2c467",
+        "id": "ecfe5c40ed58d1c9",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "test.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,37 +97,29 @@
         }
       },
       {
-        "id": "2bff841755682523",
+        "id": "e69d1a0cd22c5ec1",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "test.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "eef092344722d24f",
+        "id": "9cc1b43d8390c522",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "test.md"
           }
-        }
-      },
-      {
-        "id": "a7499e36d22d6bfe",
-        "type": "leaf",
-        "state": {
-          "type": "git-view",
-          "state": {}
         }
       }
     ],
-    "currentTab": 3
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,9 +131,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "72039a414f01c55e",
+  "active": "bd93baf517d02119",
   "lastOpenFiles": [
-    "腰が痛いので、寝ながらブログを書ける環境を作った.md",
+    "test.md",
     "README.md"
   ]
 }
