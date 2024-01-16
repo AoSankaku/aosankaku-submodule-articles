@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "b945fab152de190a",
+    "id": "216da01fee36b090",
     "type": "split",
     "children": [
       {
-        "id": "0c0f23ec291ea899",
+        "id": "613c3bbd456d043e",
         "type": "tabs",
         "children": [
           {
-            "id": "112c44d905dddd0f",
+            "id": "bd93baf517d02119",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "825aaf7003982e66",
+    "id": "ee94ea9863c53fd7",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "50e19632d2220373",
+        "id": "53bbf4fee2d29a50",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "id": "2e91f1f22e02b5bf",
+        "id": "202f86ef0f4047e1",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "23ccf35265da99e5",
+        "id": "9ceef47ad039240e",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "ef489df909bdf0cf",
+        "id": "c2b8e313d1452147",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,11 +76,11 @@
     "currentTab": 0
   },
   "right": {
-    "id": "1514011450b4efb1",
+    "id": "d3518a582f4db84f",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "dd5f8db3ba1dced5",
+        "id": "ecfe5c40ed58d1c9",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -89,7 +89,7 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
-            "showSearch": true,
+            "showSearch": false,
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
@@ -97,7 +97,7 @@
         }
       },
       {
-        "id": "ac5b47aa0c98ffdf",
+        "id": "e69d1a0cd22c5ec1",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -109,7 +109,7 @@
         }
       },
       {
-        "id": "ac9dd649a0c30246",
+        "id": "9cc1b43d8390c522",
         "type": "leaf",
         "state": {
           "type": "outline",
@@ -131,14 +131,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "112c44d905dddd0f",
+  "active": "bd93baf517d02119",
   "lastOpenFiles": [
-    "test1.md",
-    "/test1.md",
-    "conflict-files-obsidian-git.md",
     "test2.md",
-    "README.md",
+    "/test1.md",
+    "test1.md",
     "test.md",
-    "/test.md"
+    "/test2.md",
+    "README.md"
   ]
 }
