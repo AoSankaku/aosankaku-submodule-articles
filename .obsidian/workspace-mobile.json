@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "216da01fee36b090",
+    "id": "b945fab152de190a",
     "type": "split",
     "children": [
       {
-        "id": "613c3bbd456d043e",
+        "id": "0c0f23ec291ea899",
         "type": "tabs",
         "children": [
           {
-            "id": "bd93baf517d02119",
+            "id": "112c44d905dddd0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test2.md",
+                "file": "test1.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ee94ea9863c53fd7",
+    "id": "825aaf7003982e66",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "53bbf4fee2d29a50",
+        "id": "50e19632d2220373",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "id": "202f86ef0f4047e1",
+        "id": "2e91f1f22e02b5bf",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "9ceef47ad039240e",
+        "id": "23ccf35265da99e5",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "c2b8e313d1452147",
+        "id": "ef489df909bdf0cf",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,20 +76,20 @@
     "currentTab": 0
   },
   "right": {
-    "id": "d3518a582f4db84f",
+    "id": "1514011450b4efb1",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "ecfe5c40ed58d1c9",
+        "id": "dd5f8db3ba1dced5",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "test2.md",
+            "file": "test1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
-            "showSearch": false,
+            "showSearch": true,
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
@@ -97,24 +97,24 @@
         }
       },
       {
-        "id": "e69d1a0cd22c5ec1",
+        "id": "ac5b47aa0c98ffdf",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "test2.md",
+            "file": "test1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "9cc1b43d8390c522",
+        "id": "ac9dd649a0c30246",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "test2.md"
+            "file": "test1.md"
           }
         }
       }
@@ -131,12 +131,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd93baf517d02119",
+  "active": "112c44d905dddd0f",
   "lastOpenFiles": [
     "test1.md",
+    "/test1.md",
+    "conflict-files-obsidian-git.md",
     "test2.md",
+    "README.md",
     "test.md",
-    "/test2.md",
-    "README.md"
+    "/test.md"
   ]
 }
