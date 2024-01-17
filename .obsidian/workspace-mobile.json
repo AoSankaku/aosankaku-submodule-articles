@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test1.md",
+                "file": "write_articles_from_smartphone_using_git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "test1.md",
+            "file": "write_articles_from_smartphone_using_git.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "test1.md",
+            "file": "write_articles_from_smartphone_using_git.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "test1.md"
+            "file": "write_articles_from_smartphone_using_git.md"
           }
         }
       },
@@ -139,11 +139,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd93baf517d02119",
+  "active": "53bbf4fee2d29a50",
   "lastOpenFiles": [
+    "test1.md",
+    "write_articles_from_smartphone_using_git.md",
     "test2.md",
     "/test1.md",
-    "test1.md",
     "test.md",
     "/test2.md",
     "README.md"
