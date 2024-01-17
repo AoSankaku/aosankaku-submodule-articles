@@ -117,9 +117,17 @@
             "file": "test1.md"
           }
         }
+      },
+      {
+        "id": "9d8323ade071409b",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
