@@ -13,4 +13,14 @@
 
 こういう画像が、ポチポチするだけで作れます。パソコンすらいらず、スマホでも普通にできます。
 
-また、
+## 場所
+
+https://socialify.git.ci/AoSankaku/Send-Minecraft-notifications?font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Light
+
+このリンク先にあります。
+
+言語は英語です。簡単に解説を加えておきます。
+
+### GitHubとは関係ある？
+
+わかりませんが、多分あるんじゃないかな…と思います。
