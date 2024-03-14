@@ -11,7 +11,11 @@
 
 
 
+そしてこのリポジトリは、[マイクラサーバーの通知を自動送信する奴]()のものです（宣伝）。
+
 こういう画像が、ポチポチするだけで作れます。パソコンすらいらず、スマホでも普通にできます。
+
+なお、右側のプログラミング言語は自動検出です。
 
 ## 場所
 
@@ -30,19 +34,19 @@ https://socialify.git.ci/AoSankaku/Send-Minecraft-notifications?font=Inter&langu
 
 わかりませんが、多分あるんじゃないかな…と思います。
 
-### 動的変化も行イケる
+### 動的変化もイケる
 
 例えば、PRやStarの数が変化したときに、APIを利用して動的に画像を変化させることができます。
 
 ```html
-<img src=""　/>
+<img src="コピーした画像のリンク"　/>
 ```
 
 のように書くだけで、簡単に実装できます。
 
 ただし、GitHubはOGP設定時に静的画像しか受け付けないために、**この機能はOGPには使えない**ため注意しましょう。OGP画像には、Starの数などは含めないほうが賢明です。
 
-どうやら、URLで画像を共有できるようです。
+他にもどうやら、URLで画像や内容を共有できるようです。すごい。間違えて保存せずに閉じてしまっても、履歴から遡れば同じ状態で復元できます。URLが共有できれば、同じ端末上である必要すらありません。
 
 https://socialify.git.ci/AoSankaku/Send-Minecraft-notifications?font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Light
 
