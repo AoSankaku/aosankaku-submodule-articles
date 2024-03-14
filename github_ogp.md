@@ -21,6 +21,31 @@ https://socialify.git.ci/AoSankaku/Send-Minecraft-notifications?font=Inter&langu
 
 言語は英語です。簡単に解説を加えておきます。
 
+- Theme…ダークかライトか選べます。
+- Font…フォント（文字の外見）を選べます。
+- Background Pattern…よく見ると、背景にうっすら模様がついているのですが、それを変更できます。好みです。
+- SVG Logo…SVG形式でロゴを指定できるらしいです。URLも行けるとのことで自由度は高いですが、著作権には気をつけましよょう。
+
 ### GitHubとは関係ある？
 
 わかりませんが、多分あるんじゃないかな…と思います。
+
+### 動的変化も行イケる
+
+例えば、PRやStarの数が変化したときに、APIを利用して動的に画像を変化させることができます。
+
+```html
+<img src=""　/>
+```
+
+のように書くだけで、簡単に実装できます。
+
+ただし、GitHubはOGP設定時に静的画像しか受け付けないために、**この機能はOGPには使えない**ため注意しましょう。OGP画像には、Starの数などは含めないほうが賢明です。
+
+どうやら、URLで画像を共有できるようです。
+
+https://socialify.git.ci/AoSankaku/Send-Minecraft-notifications?font=Inter&language=1&name=1&owner=1&pattern=Plus&theme=Light
+
+## なぜデフォルトにならないのか
+
+これをGitHubの全リポジトリのデフォルトにすればいいのに…と思うのですが不思議です。やっぱり公式サービスじゃないんですかね。よくわかりません。
