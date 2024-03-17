@@ -53,3 +53,7 @@ https://socialify.git.ci/AoSankaku/Send-Minecraft-notifications?font=Inter&langu
 ## なぜデフォルトにならないのか
 
 これをGitHubの全リポジトリのデフォルトにすればいいのに…と思うのですが不思議です。やっぱり公式サービスじゃないんですかね。よくわかりません。
+
+## 余談（もう一個あった）
+
+たまたま似たようなサービス？サンドボックス？を発見しました。時々役に立つかもしれません。
