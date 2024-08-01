@@ -1,1 +1,3 @@
 Distant HorizonsもFarsightもまともに動かないので、Bobbyを使ってみた
+
+でも重いんだよね〜
