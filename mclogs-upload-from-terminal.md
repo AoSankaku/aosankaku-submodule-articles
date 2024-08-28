@@ -4,7 +4,9 @@ category: "Minecraft"
 date: "2024-05-12T12:00:00+09:00"
 desc: "マインクラフトでクラッシュした時に、簡単にログファイルを共有しよう！"
 tags:
-  - 生活
+  - Minecraft
+  - Linux
+  - Bash
 ---
 ## やり方
 <fileName>のところをファイルへのパスに置き換えれば使えます。
