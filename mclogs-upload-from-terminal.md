@@ -9,7 +9,7 @@ tags:
   - Bash
 ---
 ## 結論(時間のない人向け)
-latest.logのところをファイルへのパスに置き換えれば使えます。
+latest.logのところをログファイルへのパスに置き換えれば使えます。
 ```bash
 curl -X POST -d "content=$(<latest.log)" https://api.mclo.gs/1/log
 ```
@@ -47,7 +47,7 @@ curl -X POST -d "content=$(cat latest.log)" https://api.mclo.gs/1/log
 ```
 
 ## 結論
-latest.logのところをファイルへのパスに置き換えれば使えます。
+latest.logのところをログファイルへのパスに置き換えれば使えます。
 ```bash
 curl -X POST -d "content=$(<latest.log)" https://api.mclo.gs/1/log
 ```
