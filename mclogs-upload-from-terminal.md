@@ -15,7 +15,7 @@ curl -X POST -d "content=$(<latest.log)" https://api.mclo.gs/1/log
 ```
 or
 ```bash
-curl -X POST -F 'content=$(cat latest.log)' https://api.mclo.gs/1/log
+curl -X POST -d 'content=$(cat latest.log)' https://api.mclo.gs/1/log
 ```
 
 ## どうしてログファイルの共有を簡単にやりたかったのか
@@ -53,7 +53,7 @@ curl -X POST -d "content=$(<latest.log)" https://api.mclo.gs/1/log
 ```
 or
 ```bash
-curl -X POST -F 'content=$(cat latest.log)' https://api.mclo.gs/1/log
+curl -X POST -d 'content=$(cat latest.log)' https://api.mclo.gs/1/log
 ```
 
 ## おまけ
