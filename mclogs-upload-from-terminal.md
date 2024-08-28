@@ -32,12 +32,12 @@ curl -X POST -F 'content=./latest.log' https://api.mclo.gs/1/log
 
 ## 友人に助けてもらった
 どうやら、いい感じにやる方法があるらしく、二つほど教えてもらいました。
-Bashのリダイレクトを使う方法
+- Bashのリダイレクトを使う方法
 ```bash
 curl -X POST -d "content=$(<latest.log)" https://api.mclo.gs/1/log
 ```
 
-Catコマンドを使う方法
+- Catコマンドを使う方法
 ```bash
 curl -X POST -d "content=$(cat latest.log)" https://api.mclo.gs/1/log
 ```
