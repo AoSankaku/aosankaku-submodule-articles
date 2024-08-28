@@ -8,10 +8,14 @@ tags:
   - Linux
   - Bash
 ---
-## やり方
-<fileName>のところをファイルへのパスに置き換えれば使えます。
+## 結論(時間のない人向け)
+latest.logのところをファイルへのパスに置き換えれば使えます。
 ```bash
-curl -X POST -F 'content=$(cat <fileName>)' https://api.mclo.gs/1/log
+curl -X POST -d "content=$(<latest.log)" https://api.mclo.gs/1/log
+```
+or
+```bash
+curl -X POST -F 'content=$(cat latest.log)' https://api.mclo.gs/1/log
 ```
 
 ## どうしてログファイルの共有を簡単にやりたかったのか
