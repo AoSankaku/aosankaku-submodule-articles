@@ -20,26 +20,54 @@ Yさん: ログファイル見せてくれないと何もわからないよ...?
 となって、「簡単にやる方法ないのかな...」となったからです。
 
 ## とりあえずチャレンジ
-APIの仕様を見て、mclo.gsに直接ubuntuサーバーなどのターミナルからログを上げてみます。
+[mclo.gsのAPIの仕様](https://api.mclo.gs)を見て、mclo.gsに直接ubuntuサーバーなどのターミナルからログを上げてみます。
 
 (これは動きません...)
-```bat
-curl -X POST -F 'content=./crash-2024-08-08_02.26.38-server.txt' https://api.mclo.gs/1/log
+```bash
+curl -X POST -F 'content=./latest.log' https://api.mclo.gs/1/log
 ```
 だとファイル名だけが上がってしまいます。
 
 ## 友人に助けてもらった
 どうやら、いい感じにやる方法があるらしく、二つほど教えてもらいました。
-Bashのリダイレクトを使って挿入
-```bat
-curl -X POST -d "content=$(<crash-2024-08-08_02.26.38-server.txt)" https://api.mclo.gs/1/log
+Bashのリダイレクトを使う方法
+```bash
+curl -X POST -d "content=$(<latest.log)" https://api.mclo.gs/1/log
 ```
 
-Catコマンドの実行結果を挿入
-```bat
-curl -X POST -d "content=$(cat crash-2024-08-08_02.26.38-server.txt)" https://api.mclo.gs/1/log
+Catコマンドを使う方法
+```bash
+curl -X POST -d "content=$(cat latest.log)" https://api.mclo.gs/1/log
 ```
 
-を打つと良いと回答が来ました。実際に動いたので、URL先を見てみるとなぜか動きました。不思議でしょうがありません。記号がファイル名に入っているのが問題なのかはさっぱりですが、とりあえず動いたのでここにメモとして残します。
+## 結論
+latest.logのところをファイルへのパスに置き換えれば使えます。
+```bash
+curl -X POST -d "content=$(<latest.log)" https://api.mclo.gs/1/log
+```
+or
+```bash
+curl -X POST -F 'content=$(cat latest.log)' https://api.mclo.gs/1/log
+```
 
-https://api.mclo.gs
+## おまけ
+動いたは動いたのですが、Bashのリダイレクトを使う方法の中に出てくる
+```bash
+'content=$(<latest.log)'
+```
+はどんな動きをしているのか気になったのでおまけで調べてみました。
+
+### 説明
+- `$()`
+  - [とほほのBash入門](https://www.tohoho-web.com/ex/shell.html#command-replace)によると
+  - > $(...) または `...` の中にコマンドを書くと、コマンドの出力が文字列として扱われます。
+- `<`
+  - [とほほのBash入門](https://www.tohoho-web.com/ex/shell.html#in-out-redirect)によると
+  - > `command < file` fileの内容をcommandの標準入力に渡す
+
+### 動きを考えてみる
+1. `<`を使用して、ファイルの中身を標準入力に渡す
+2. `$()`によって、`content=`の後に代入している
+
+## あとがき
+今回、この記事を書いていて、「うーん... まだまだ、Bashに対する知識が少ないな」と感じたので、サーバーを触ったりしていく中で、知識をつけていきたいなと思っています。
